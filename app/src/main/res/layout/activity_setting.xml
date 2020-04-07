@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEEEEE">
+
+    <androidx.appcompat.widget.Toolbar
+        app:title="设置"
+        android:id="@+id/settings_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
+    <RelativeLayout
+        android:id="@+id/settings_info"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@android:color/white"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="个人信息"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end|center"
+            android:contentDescription="enter"
+            android:src="@drawable/ic_enter" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/settings_notify"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="消息提醒"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end|center"
+            android:contentDescription="enter"
+            android:src="@drawable/ic_enter" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/settings_privacy"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="隐私"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end|center"
+            android:contentDescription="enter"
+            android:src="@drawable/ic_enter" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/settings_normal"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="通用"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end|center"
+            android:contentDescription="enter"
+            android:src="@drawable/ic_enter" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/settings_theme"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="主题"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end|center"
+            android:contentDescription="enter"
+            android:src="@drawable/ic_enter" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/settings_about"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="关于"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end|center"
+            android:contentDescription="enter"
+            android:src="@drawable/ic_enter" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:text="version 2.2" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>

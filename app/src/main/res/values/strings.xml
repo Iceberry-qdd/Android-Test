@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">水果</string>
+    <string name="noMsg">暂无新通知</string>
+    <string name="Msg">通知</string>
+    <string name="apple">苹果</string>
+    <string name="banana">香蕉</string>
+    <string name="orange">橘子</string>
+    <string name="watermelon">西瓜</string>
+    <string name="pear">梨</string>
+    <string name="grape">葡萄</string>
+    <string name="pineapple">菠萝</string>
+    <string name="strawberry">草莓</string>
+    <string name="cherry">荔枝</string>
+    <string name="mango">芒果</string>
+    <string name="phone">电话</string>
+    <string name="friends">朋友</string>
+    <string name="location">位置</string>
+    <string name="mail">邮件</string>
+    <string name="task">任务</string>
+    <string name="settings">设置</string>
+    <string name="succeed" translatable="true">操作成功！</string>
+    <string name="undo" translatable="true">撤销</string>
+    <string name="revoked" translatable="true">已撤销</string>
+    <string name="account" translatable="true">账号</string>
+    <string name="key" translatable="true">密码</string>
+    <string name="login" translatable="true">登录</string>
+    <string name="login_default" translatable="true">未登录</string>
+    <string name="login_fail" translatable="true">账号与密码均不能为空！</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+</resources>

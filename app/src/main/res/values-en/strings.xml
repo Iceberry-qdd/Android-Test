@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Fruits</string>
+    <string name="noMsg" translatable="false">No new notifications</string>
+    <string name="Msg" translatable="false">Notification</string>
+    <string name="apple" translatable="false">Apple</string>
+    <string name="banana" translatable="false">Banana</string>
+    <string name="orange" translatable="false">Orange</string>
+    <string name="watermelon" translatable="false">Watermelon</string>
+    <string name="pear" translatable="false">Pear</string>
+    <string name="grape" translatable="false">Grape</string>
+    <string name="pineapple" translatable="false">Pineapple</string>
+    <string name="strawberry" translatable="false">Strawberry</string>
+    <string name="cherry" translatable="false">Cherry</string>
+    <string name="mango" translatable="false">Mango</string>
+    <string name="phone" translatable="false">Phone</string>
+    <string name="friends" translatable="false">Friends</string>
+    <string name="location" translatable="false">Location</string>
+    <string name="mail" translatable="false">Mail</string>
+    <string name="task" translatable="false">Task</string>
+    <string name="settings" translatable="false">Settings</string>
+    <string name="succeed">Succeed!</string>
+    <string name="undo">Undo</string>
+    <string name="revoked">Revoked</string>
+    <string name="account">Account</string>
+    <string name="key">key</string>
+    <string name="login">Login</string>
+    <string name="login_default">No Login</string>
+    <string name="login_fail">Account and password cannot be empty!</string>
+</resources>
